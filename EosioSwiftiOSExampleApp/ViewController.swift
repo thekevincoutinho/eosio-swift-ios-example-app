@@ -13,14 +13,17 @@ import EosioSwiftSoftkeySignatureProvider
 
 // SUPPLY VALUES TO THESE VARIABLES TO RUN EXAMPLE APP
 
-    let endpoint = URL(string: "https://supply-value")! // override with node endpoint URL
-    let privateKeys = ["SUPPLY VALUE"]
+    let endpoint = URL(string: "https://localhost:8888")! // override with node endpoint URL
+
+    // KC - Use EOS Studio To Supply The Private Key
+    let privateKeys = ["5HsA9z7GAfqaU8mnZFh8DNoa4pMdNvSTkES61kpLTb6ZxVmwobj"]
     let currencySymbol = "SYS" // override to the token of your choice (e.g., "EOS")
     let permission = "active" // override if needed
 
     // Transfer action data variables
-    let from = "SUPPLY VALUE"
-    let to = "SUPPLY VALUE"
+    // KC - Edited the from and to
+    let from = "kevincou"
+    let to = "eosio"
     let quantity = "1.0000 SYS" // override if needed (e.g., "1.0000 EOS")
     let memo = "" // override if needed
 
